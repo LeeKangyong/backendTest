@@ -1,0 +1,181 @@
+2024-07-08T12:38:16.066+09:00  INFO 76872 --- [main] k.c.p.b.BackendTestApplication           : Starting BackendTestApplication using Java 17.0.5 with PID 76872 (/Users/leesfact/workspace/backend-test-master/bin/main started by leesfact in /Users/leesfact/workspace/backend-test-master)
+2024-07-08T12:38:16.067+09:00 DEBUG 76872 --- [main] k.c.p.b.BackendTestApplication           : Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-07-08T12:38:16.068+09:00  INFO 76872 --- [main] k.c.p.b.BackendTestApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-07-08T12:38:16.315+09:00  INFO 76872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08T12:38:16.339+09:00  INFO 76872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-07-08T12:38:16.612+09:00  INFO 76872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-08T12:38:16.617+09:00  INFO 76872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-08T12:38:16.617+09:00  INFO 76872 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-07-08T12:38:16.638+09:00  INFO 76872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-08T12:38:16.638+09:00  INFO 76872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 553 ms
+2024-07-08T12:38:16.655+09:00  INFO 76872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-08T12:38:16.741+09:00  INFO 76872 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=PC
+2024-07-08T12:38:16.742+09:00  INFO 76872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-08T12:38:16.747+09:00  INFO 76872 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-08T12:38:16.800+09:00  INFO 76872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08T12:38:16.820+09:00  INFO 76872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-07-08T12:38:16.833+09:00  INFO 76872 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08T12:38:16.931+09:00  INFO 76872 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08T12:38:16.947+09:00  WARN 76872 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08T12:38:17.263+09:00  INFO 76872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08T12:38:17.276+09:00  INFO 76872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08T12:38:17.408+09:00  WARN 76872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08T12:38:17.577+09:00  INFO 76872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-07-08T12:38:17.583+09:00  INFO 76872 --- [main] k.c.p.b.BackendTestApplication           : Started BackendTestApplication in 1.669 seconds (process running for 1.927)
+2024-07-08T12:38:21.550+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : Starting BackendTestApplicationTests using Java 17.0.5 with PID 76906 (started by leesfact in /Users/leesfact/workspace/backend-test-master)
+2024-07-08T12:38:21.551+09:00 DEBUG 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-07-08T12:38:21.551+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-08T12:38:21.799+09:00  INFO 76906 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08T12:38:21.822+09:00  INFO 76906 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-07-08T12:38:22.075+09:00  INFO 76906 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08T12:38:22.097+09:00  INFO 76906 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-07-08T12:38:22.110+09:00  INFO 76906 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-08T12:38:22.216+09:00  INFO 76906 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08T12:38:22.228+09:00  INFO 76906 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-08T12:38:22.311+09:00  INFO 76906 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=PC
+2024-07-08T12:38:22.311+09:00  INFO 76906 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-08T12:38:22.323+09:00  WARN 76906 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08T12:38:22.660+09:00  INFO 76906 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08T12:38:22.674+09:00  INFO 76906 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08T12:38:22.865+09:00  WARN 76906 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08T12:38:23.019+09:00  INFO 76906 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-08T12:38:23.048+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.048+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.048+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.066+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : Started BackendTestApplicationTests in 1.641 seconds (process running for 2.103)
+2024-07-08T12:38:23.380+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.381+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.381+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.388+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:38:23.438+09:00  INFO 76906 --- [main] k.c.p.b.c.GlobalExceptionHandler         : Response Status: 400, Reason:  Name is mandatory
+2024-07-08T12:38:23.462+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testInvalidRequest passed
+2024-07-08T12:38:23.469+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.469+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.469+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.470+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:38:23.470+09:00  WARN 76906 --- [main] o.s.web.servlet.PageNotFound             : No mapping for GET /non-existing-endpoint
+2024-07-08T12:38:23.471+09:00  INFO 76906 --- [main] k.c.p.b.c.GlobalExceptionHandler         : Response Status: 404, Reason: Not Found
+2024-07-08T12:38:23.471+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testInvalidEndpoint passed
+2024-07-08T12:38:23.473+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.473+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.474+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-08T12:38:23.474+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:38:23.534+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testRegisterUser passed
+2024-07-08T12:38:23.537+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.537+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.537+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.538+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:38:23.671+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testGetUser passed
+2024-07-08T12:38:23.673+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.673+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.673+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.674+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:38:23.683+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testUpdateUser passed
+2024-07-08T12:38:23.685+09:00  INFO 76906 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-08T12:38:23.685+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-08T12:38:23.685+09:00  INFO 76906 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-08T12:38:23.686+09:00  INFO 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Query String: name=test!!
+2024-07-08T12:38:23.686+09:00 ERROR 76906 --- [main] k.c.p.b.filter.SpecialCharacterFilter    : Invalid characters found in query string: name=test!!
+2024-07-08T12:38:23.686+09:00  INFO 76906 --- [main] k.c.p.b.BackendTestApplicationTests      : testFilterSpecialCharacters passed
+2024-07-08T12:38:23.693+09:00  INFO 76906 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08T12:38:23.696+09:00  INFO 76906 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-08T12:38:23.697+09:00  INFO 76906 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-08T12:50:36.050+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.050+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.053+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.053+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.067+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.067+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.076+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:36.076+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:36.089+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.089+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.708+09:00  INFO 76872 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08T12:50:36.709+09:00  INFO 76872 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-08T12:50:36.715+09:00  INFO 76872 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-07-08T12:50:36.716+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.716+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:36.733+09:00  WARN 76872 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-07-08T12:50:36.740+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.c.GlobalExceptionHandler         : Response Status: 404, Reason: Not Found
+2024-07-08T12:50:48.428+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.430+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-9] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.465+09:00  INFO 76872 --- [http-nio-8080-exec-9] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.466+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.466+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:48.478+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.478+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.479+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.479+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.480+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.480+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.480+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.480+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.482+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.482+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.483+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.483+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.483+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.483+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.484+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.484+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.484+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.484+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.485+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.485+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.516+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.516+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.520+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.521+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.521+09:00  INFO 76872 --- [http-nio-8080-exec-6] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.522+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-9] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-4] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-9] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-3] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-1] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.523+09:00  INFO 76872 --- [http-nio-8080-exec-7] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.524+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.524+09:00  INFO 76872 --- [http-nio-8080-exec-5] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.525+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:48.525+09:00  INFO 76872 --- [http-nio-8080-exec-10] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:52.287+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:52.288+09:00  INFO 76872 --- [http-nio-8080-exec-2] k.c.p.b.filter.SpecialCharacterFilter    : Query String: jsessionid=6e5f5f632aba1de5fe4b8850c4f2abe9
+2024-07-08T12:50:52.317+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T12:50:52.318+09:00  INFO 76872 --- [http-nio-8080-exec-8] k.c.p.b.filter.SpecialCharacterFilter    : Query String: null
+2024-07-08T13:03:15.293+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s220ms).
+2024-07-08T13:19:22.569+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m37s264ms).
+2024-07-08T13:25:32.605+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m10s36ms).
+2024-07-08T13:28:37.446+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s387ms).
+2024-07-08T14:02:17.920+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m10s273ms).
+2024-07-08T14:18:30.343+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m12s423ms).
+2024-07-08T14:34:32.359+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m32s6ms).
+2024-07-08T14:54:06.893+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m34s500ms).
+2024-07-08T14:57:24.539+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m17s646ms).
+2024-07-08T15:17:35.459+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s952ms).
+2024-07-08T15:28:31.472+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s13ms).
+2024-07-08T15:34:19.892+09:00  WARN 76872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m48s397ms).
+2024-07-08T15:40:32.073+09:00  INFO 76872 --- [RMI TCP Connection(76)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-08T15:40:32.081+09:00  INFO 76872 --- [RMI TCP Connection(76)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08T15:40:32.084+09:00  INFO 76872 --- [RMI TCP Connection(76)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-08T15:40:32.085+09:00  INFO 76872 --- [RMI TCP Connection(76)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
